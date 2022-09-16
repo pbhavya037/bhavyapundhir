@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body class="scroll-smooth">
+
+    <!-- navbar -->
+    <nav class="flex justify-between p-2 md:p-6">
+      <a href="/" class=" text-xl md:text-3xl hover:cursor-pointer font-bold">Bhavya Pundhir</a>
+      <div class="flex text-md gap-4">
+        <a href="/" class=" rounded-full hover:bg-yellow-300 p-2 md:px-4 duration-150 ease-in-out text-xs md:text-lg" >Home</a>
+        <a href="#about" class="rounded-full hover:bg-yellow-300 p-2 md:px-4 duration-150 ease-in-out text-xs md:text-lg"  >About</a>
+        <a href="#proj" class=" rounded-full hover:bg-yellow-300 p-2 md:px-4 duration-150 ease-in-out text-xs md:text-lg">Projects</a>
+        <a href="#contact" class=" rounded-full hover:bg-yellow-300 p-2 md:px-4 duration-150 ease-in-out text-xs md:text-lg">Contact</a>
+      </div>
+    </nav>
+
+    <!-- content -->
+    <div>
+      <div id="home" class=" bg-gray-100 min-h-screen py-10">
+        <div class="flex justify-center mt-6 md:mt-10 mb-10">
+          <div class="border-2 border-black rounded-full w-52 h-52 md:w-80 md:h-80 shadow-xl overflow-hidden ">
+            <img src="/image/p.png" alt="img" class="w-full">
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <p class="text-2xl md:text-4xl text-center font-bold mb-4">Hi, I am Bhavya Pundhir</p>
+        </div>
+        <div class="flex justify-center mb-10 ">
+          <p class="text-center text-lg " style="width: 70%;">
+            An upcoming web developer who believes in creating elegant and user-friendly websites that leads to the success of the overall product.
+          </p>
+        </div>
+        <div class="flex justify-center mb-4">
+              <p class="bg-black w-4 h-4 rounded-full animate-ping"></p>
+        </div>
+      </div>
+      <!-- about -->
+      <div id="about" class=" min-h-screen pb-4 overflow-auto ">
+
+        <div class="flex justify-center w-full mt-8">
+          <p class="font-bold text-xl md:text-3xl ">About Me</p>
+        </div>
+        <div class="flex justify-center w-full mt-2">
+          <span class="w-8 bg-yellow-300 h-1 rounded-full" ></span>
+        </div>
+
+        <div class="md:flex md:flex-row md:justify-around h-80 ">
+
+          <!-- Desktop veiw -->
+          <div class="md:h-full md:basis-1/3  justify-center">
+            <p class="font-bold text-lg md:text-2xl text-center md:text-start mt-12">Get to know me!</p>
+            <p class="text-justify text-md md:text-lg mt-10 mb-10 px-6 md:px-0">Hello, I'm Bhavya Pundhir, a math enthusiast pursuing a master's degree in  mathematics & computing at IIT Guwahati. 
+              Aside from being a scholar, I enjoy developing websites, and I'm an avid fan of cricket and chess. 
+              I am originally from Delhi, India. My curiosity about everything around me sparked my interest in math, which eventually led to the opening of doors to great opportunities for me, and I am eager to learn more. I believe in investing my time in places where I can make a difference.</p>
+            <a href="#contact" class="bg-yellow-300 px-8 mt-4 py-2 border-2 border-white hover:border-black rounded-full shadow-inner mt-10 duration-150 ease-in-out" >Contact</a>
+          </div>
+          <div class=" md:basis-1/3 pb-10" >
+            <p class="font-bold text-lg md:text-2xl mb-10 mt-12 text-center md:text-start">My skills</p>
+            <div class="flex gap-4 flex-wrap text-md md:text-lg justify-center md:justify-start"> 
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">C</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">C++</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">Python</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">HTML</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">CSS</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">JavaScript</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">PHP</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">SQL</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">MySQL</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">React JS</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">Github</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">Matlab</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">Latex</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">Windows</span>
+              <span class="p-2 bg-gray-100 rounded-md md:rounded-lg w-24 text-center">Linux</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- project -->
+
+      <div id="proj" class="p-10 min-h-screen bg-gray-100">
+        <div class="flex justify-center w-full">
+          <p class="font-bold text-xl md:text-3xl ">Projects</p>
+        </div>
+        <div class="flex justify-center w-full mt-2">
+          <span class="w-8 bg-yellow-300 h-1 rounded-full" ></span>
+        </div>
+        <!-- desktop veiw -->
+        
+        <div class="hidden md:block">
+          <div class=" flex  justify-around mt-20">
+            <div class="basis-2/5">
+              <img src="/image/bingpoint.png" alt="image" class="w-full rounded-lg md:rounded-tr-3xl md:rounded-bl-3xl shadow-xl shadow-gray-400 ">
+            </div>
+            <div class="basis-2/5" >
+              <p class="font-bold text-justify text-lg ">BingePoint: <span class="italic"> A Movie & Series Review WebApp </span></p>
+              <p class="text-justify mt-6 text-lg">- It is a dynamic & resposive website which recommends movies & webseries according to the latest trends. User can also search for their favourite movies & series.</p>
+              <p class="text-justify mt-6 text-lg">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript, tailwindcss & React.</span></p>
+              <div class="flex mt-6 text-lg">
+                <i class="fa-brands fa-html5 w-5"></i>
+                <i class="fa-brands fa-css3-alt w-5"></i>
+                <i class="fa-brands fa-js w-5"></i>
+                <i class="fa-brands fa-react w-5"></i>
+              </div>
+              <div class="flex  gap-10 mt-6 text-lg">
+                <a href="https://bingepoint.netlify.app/" target="_blank" class="hover:text-yellow-400 hover:underline duration-150 hover:cursor-pointer ease-in-out" >Website</a>
+                <a href="https://github.com/pbhavya037/bingepoint.git" target="_blank" class="hover:text-yellow-400 hover:underline hover:cursor-pointer  duration-150 ease-in-out" >Github</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class=" flex  justify-around mt-20">
+            <div class="basis-2/5" >
+              <p class="font-bold text-justify text-lg ">BingePoint Chrome Extentsion: <span class="italic"> A Movie & Series Review Chrome Extension </span></p>
+              <p class="text-justify mt-6 text-lg">- It is a chrome extension which recommends movies/series & provide the search feature to its users </p>
+              <p class="text-justify mt-4 text-lg">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript.</span></p>
+              <div class="flex mt-4 text-lg">
+                <i class="fa-brands fa-html5 w-5"></i>
+                <i class="fa-brands fa-css3-alt w-5"></i>
+                <i class="fa-brands fa-js w-5"></i>
+              </div>
+              <div class="flex  gap-10 mt-4 text-lg">
+                <a href="https://github.com/pbhavya037/bingepointext.git" target="_blank" class="hover:text-yellow-400 hover:cursor-pointer hover:underline duration-150 ease-in-out" >Github</a>
+              </div>
+            </div>
+            <div class="basis-2/5">
+              <img src="/image/ext.png" alt="image" class="w-full rounded-lg md:rounded-tl-3xl md:rounded-br-3xl shadow-xl shadow-gray-400 ">
+            </div>
+          </div>
+
+          <div class=" flex  justify-around mt-20">
+            <div class="basis-2/5">
+              <img src="/image/ted.png" alt="image" class="w-full md:rounded-tr-3xl rounded-lg md:rounded-bl-3xl shadow-xl shadow-gray-400 ">
+            </div>
+            <div class="basis-2/5">
+              <p class="font-bold text-justify text-lg ">TedxIITGuwahati Website: <span class="italic">(Team Project)</span></p>
+              <p class="text-justify mt-6 text-lg">- It is an offial TedxIITGuwahati website, where user can follow the TedxIITGuwahati previous & upcoming events.        </p>
+              <p>- Created web pages & added feature like email subscription & etc.</p>
+              <p class="text-justify mt-6 text-lg">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript</span></p>
+              <div class="flex mt-6 text-lg">
+                <i class="fa-brands fa-html5 w-5"></i>
+                <i class="fa-brands fa-css3-alt w-5"></i>
+                <i class="fa-brands fa-js w-5"></i>
+              </div>
+              <div class="flex  gap-10 mt-6 text-lg">
+                <a href="#" target="_blank" class="hover:text-yellow-400 hover:underline duration-150 hover:cursor-pointer ease-in-out" >Website</a>
+                <a href="#" target="_blank" class="hover:text-yellow-400 hover:underline hover:cursor-pointer  duration-150 ease-in-out" >Github</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex  justify-around mt-20">
+            <div class="md:basis-2/5" >
+              <p class="font-bold text-justify text-lg ">Portfolio Website: <span class="italic"></span></p>
+              <p class="text-justify mt-6 text-lg">- A web portal to exhibit my skill & talent.</p>
+              <p class="text-justify mt-4 text-lg">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript, tailwindcss</span></p>
+              <div class="flex mt-4 text-lg">
+                <i class="fa-brands fa-html5 w-5"></i>
+                <i class="fa-brands fa-css3-alt w-5"></i>
+                <i class="fa-brands fa-js w-5"></i>
+              </div>
+              <div class="flex  gap-10 mt-4 text-lg">
+                <a href="https://github.com/pbhavya037/bingepointext.git" target="_blank" class="hover:text-yellow-400 hover:cursor-pointer hover:underline duration-150 ease-in-out" >Github</a>
+              </div>
+            </div>
+            <div class=" md:basis-2/5">
+              <img src="/image/portfolio.png" alt="image" class="w-full rounded-lg md:rounded-tl-3xl md:rounded-br-3xl shadow-xl shadow-gray-400 ">
+            </div>
+          </div>
+      </div>
+      
+      <!-- mobile view -->
+
+      <div class="block md:hidden">
+        <div class=" mt-20">
+          <div >
+            <img src="/image/bingpoint.png" alt="image" class="w-full rounded-lg shadow-lg shadow-gray-400 ">
+          </div>
+          <div class="mt-6" >
+            <p class="font-bold text-justify text-md underline">BingePoint: <span class="italic"> A Movie & Series Review WebApp </span></p>
+            <p class="text-justify mt-2 text-md">- It is a dynamic & resposive website which recommends movies & webseries according to the latest trends. User can also search for their favourite movies & series.</p>
+            <p class="text-justify mt-2 text-md">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript, tailwindcss & React.</span></p>
+            <div class="flex mt-4 text-md">
+              <i class="fa-brands fa-html5 w-5"></i>
+              <i class="fa-brands fa-css3-alt w-5"></i>
+              <i class="fa-brands fa-js w-5"></i>
+              <i class="fa-brands fa-react w-5"></i>
+            </div>
+            <div class="flex  gap-10 mt-2 text-md">
+              <a href="https://bingepoint.netlify.app/" target="_blank" class="hover:text-yellow-400 hover:underline duration-150 hover:cursor-pointer ease-in-out" >Website</a>
+              <a href="https://github.com/pbhavya037/bingepoint.git" target="_blank" class="hover:text-yellow-400 hover:underline hover:cursor-pointer  duration-150 ease-in-out" >Github</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class=" mt-20">
+          <div class="">
+            <img src="/image/ext.png" alt="image" class="w-full rounded-lg shadow-lg shadow-gray-400 ">
+          </div>
+          <div class="mt-6" >
+            <p class="font-bold text-justify text-md underline ">BingePoint Chrome Extentsion: <span class="italic"> A Movie & Series Review Chrome Extension </span></p>
+            <p class="text-justify mt-2 text-md">- It is a chrome extension which recommends movies/series & provide the search feature to its users </p>
+            <p class="text-justify mt-2 text-md">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript.</span></p>
+            <div class="flex mt-4 text-md">
+              <i class="fa-brands fa-html5 w-5"></i>
+              <i class="fa-brands fa-css3-alt w-5"></i>
+              <i class="fa-brands fa-js w-5"></i>
+            </div>
+            <div class="flex  gap-10 mt-2 text-lg">
+              <a href="https://github.com/pbhavya037/bingepointext.git" target="_blank" class="hover:text-yellow-400 hover:cursor-pointer hover:underline duration-150 ease-in-out" >Github</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="  mt-20">
+          <div class="">
+            <img src="/image/ted.png" alt="image" class="w-full rounded-lg shadow-lg shadow-gray-400 ">
+          </div>
+          <div class="mt-6">
+            <p class="font-bold text-justify text-md underline  ">TedxIITGuwahati Website: <span class="italic">(Team Project)</span></p>
+            <p class="text-justify mt-4 text-md">- It is an offial TedxIITGuwahati website, where user can follow the TedxIITGuwahati previous & upcoming events.        </p>
+            <p>- Created web pages & added feature like email subscription & etc.</p>
+            <p class="text-justify mt-2 text-md">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript</span></p>
+            <div class="flex mt-4 text-md">
+              <i class="fa-brands fa-html5 w-5"></i>
+              <i class="fa-brands fa-css3-alt w-5"></i>
+              <i class="fa-brands fa-js w-5"></i>
+            </div>
+            <div class="flex  gap-10 mt-2 text-md">
+              <a href="#" target="_blank" class="hover:text-yellow-400 hover:underline duration-150 hover:cursor-pointer ease-in-out" >Website</a>
+              <a href="#" target="_blank" class="hover:text-yellow-400 hover:underline hover:cursor-pointer  duration-150 ease-in-out" >Github</a>
+            </div>
+          </div>
+        </div>
+
+        <div class=" mt-20">
+          <div class="">
+            <img src="/image/portfolio.png" alt="image" class="w-full rounded-lg shadow-lg shadow-gray-400">
+          </div>
+          <div class="" >
+            <p class="font-bold text-justify text-md underline mt-6 ">Portfolio Website: <span class="italic"></span></p>
+            <p class="text-justify mt-4 text-md">- A web portal to exhibit my skill & talent.</p>
+            <p class="text-justify mt-2 text-md">- Key technology used in this project are <span class="font-bold">HTML, CSS, JavaScript, tailwindcss</span></p>
+            <div class="flex mt-4 text-md">
+              <i class="fa-brands fa-html5 w-5"></i>
+              <i class="fa-brands fa-css3-alt w-5"></i>
+              <i class="fa-brands fa-js w-5"></i>
+            </div>
+            <div class="flex  gap-10 mt-2 text-md">
+              <a href="https://github.com/pbhavya037/bingepointext.git" target="_blank" class="hover:text-yellow-400 hover:cursor-pointer hover:underline duration-150 ease-in-out" >Github</a>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+      </div>
+      <!-- contact form -->
+      <div id="contact" class="h-screen">
+        <div class="flex flex-row justify-center w-full">
+          <form name="submit-to-google-sheet" id="myform" class="flex flex-col mt-10 rounded-lg w-80 lg:basis-1/2 pb-10 px-6  md:pb-20 md:px-44 pt-10 bg-gray-100 h-full">
+            <div class="flex justify-center">
+              <p class="font-bold text-3xl ">Reach Out</p>
+            </div>
+            <div class="flex justify-center mt-2 w-full">
+              <span class="w-8 bg-yellow-300 h-1 rounded-full" ></span>
+            </div>
+            <input type="text" name="Name" placeholder="Name" id="name" class="mt-4 rounded-lg shadow-md" required>
+            <input type="email" name="Email" placeholder="Email" id="mail" class="mt-4 rounded-lg shadow-md " required>
+            <input type="tel" name="Phone" placeholder="Mobile No." id="tele" class="mt-4 rounded-lg shadow-md " required>
+            <textarea name="Message" id="mess" placeholder="Enter Your Message "class="mt-6 rounded-lg p-4 h-52 shadow-md" cols="30" rows="10" required></textarea>
+            <div class="flex justify-center">
+              <button class="bg-yellow-300 px-8 mt-4 py-2 border-2 border-gray-100 hover:border-black rounded-full shadow-inner duration-150 ease-in-out " >Submit</button>
+            </div>
+    
+          </form>
+        </div>
+        <div class="h-80"></div>
+      </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-black h-full p-8 md:flex md:justify-around text-white">
+      <div class="flex flex-col">
+        <p class="text-lg">Contact</p>
+        <div class="flex gap-4 mt-4">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="flex flex-col">
+            <span>A-347, Umiam Hostel</span>
+            <span>IITG, Guwahati - 781039</span>
+            <span>Assam, India</span>
+          </span>
+        </div>
+        <div class="flex gap-4 ">
+          <i class="fa-solid fa-phone"></i>
+          <span class="flex flex-col">
+            <span>9599854196</span>
+            <span>7011162126</span>
+          </span>
+        </div>
+        <div class="flex gap-4 ">
+          <i class="fa-solid fa-envelope"></i>
+          <span class="flex flex-col">
+            <span>p.bhavya@iitg.ac.in</span>
+            <span>pnitin037@gmail.com</span>
+          </span>
+        </div>
+      </div>
+      <div class=" mt-4 md:mt-0">
+        <p class="text-lg">Social</p>
+        <div class="flex gap-4 mt-6 md:mt-10">
+          <a href="https://www.linkedin.com/in/bhavya-pundhir-46086b20a" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+          <a href="https://github.com/pbhavya037" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+          <a href="https://telegram.me/bhavyapundhir037" target="_blank"><i class="fa-brands fa-telegram fa-2xl"></i></a>
+          <a href="https://api.whatsapp.com/send/?phone=919599854196&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i></i></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/0f12186728.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+    
+  </body>
+</html>
